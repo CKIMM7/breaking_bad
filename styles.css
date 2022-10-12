@@ -58,20 +58,19 @@
 
 /* dayos code */
 
-body {
-    background-color: white;
+#home {
+    background-color: #E5E4E2;
 }
-​
- .title{
-    color: red;
+
+.title {
     padding: 5px;
     background-color: #71797E;
 }
-​
-.title h1{
+
+.title h1 {
     font-size: 50px;
 }
-​
+
 .sub-title {
     text-align: center;
     font-family: 'Times New Roman', serif;
@@ -79,19 +78,30 @@ body {
     padding-top: 3px;
     font-style: italic;
 }
-​
 
-.description-home {
-    display: flex;   
+
+
+.description {
+    display: flex;
     margin-top: 30px;
 }
-​
-.description-home p {
+
+.description p {
     font-size: 20px;
     margin-left: 5px;
     padding-right: 10px;
 }
 
+@media only screen and (max-width: 800px) {
+
+    .description p {
+        font-size: 16px;
+    }
+
+    p.lorem {
+        font-size: 16px;
+    }
+}
 /* dayos code */
 
 .grid-container {
