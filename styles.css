@@ -2,6 +2,18 @@
     box-sizing: 0px;
 }
 
+.ww{
+    height: 300px;
+    width: 500px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.description {
+    display: flex;
+}
+
+
 .best-scenes .scenes-container {
     list-style: none;
     display: flex;
@@ -41,5 +53,125 @@
     margin-top: 20px;
     /* background-color: black;
     opacity: 0.8; */
+}
+
+
+/* dayos code */
+
+body {
+    background-color: white;
+}
+​
+ .title{
+    color: red;
+    padding: 5px;
+    background-color: #71797E;
+}
+​
+.title h1{
+    font-size: 50px;
+}
+​
+.sub-title {
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    background-color: #818589;
+    padding-top: 3px;
+    font-style: italic;
+}
+​
+
+.description-home {
+    display: flex;   
+    margin-top: 30px;
+}
+​
+.description-home p {
+    font-size: 20px;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+/* dayos code */
+
+.grid-container {
+    display: grid;
+    list-style: none;
+
+    border: green 3px solid;
+    grid-template-areas: 'walter jesse'
+                         'skyler son'
+
+}
+
+.grid-container img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px green;
+}
+
+.walter {
+    grid-area: 'walter';
+    border: green 3px solid;
+
+    width: 70%;
+    border-radius: 9px;
+    /* background-color: grey; */
+    margin-bottom: 15px;
+    padding: 1.3rem;
+
+    background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    color: white;
+
+}
+
+.jesse {
+    grid-area: 'jesse';
+    border: green 3px solid;
+
+    width: 70%;
+    border-radius: 9px;
+    /* background-color: grey; */
+    margin-bottom: 15px;
+    padding: 1.3rem;
+
+    background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.jesse img {
+    height: 300px;
+}
+
+.skyler {
+    grid-area: 'skyler';
+    border: green 3px solid;
+
+    width: 70%;
+    border-radius: 9px;
+    /* background-color: grey; */
+    margin-bottom: 15px;
+    padding: 1.3rem;
+
+    background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.son {
+    grid-area: 'son';
+    border: green 3px solid;
+
+    width: 70%;
+    border-radius: 9px;
+    /* background-color: grey; */
+    margin-bottom: 15px;
+    padding: 1.3rem;
+
+    background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    color: white;
 }
 
